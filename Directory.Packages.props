@@ -8,7 +8,7 @@
 		<MicrosoftAspNetCorePackageVersion7>7.0.4</MicrosoftAspNetCorePackageVersion7>
 		<MicrosoftAspNetCorePackageVersion6>6.0.13</MicrosoftAspNetCorePackageVersion6>
 		<MicrosoftExtensionsPackageVersion>7.0.0</MicrosoftExtensionsPackageVersion>
-		<EntityFrameworkCorePackageVersion>7.0.2</EntityFrameworkCorePackageVersion>
+		<EntityFrameworkCorePackageVersion>7.0.5</EntityFrameworkCorePackageVersion>
 	</PropertyGroup>
 	<ItemGroup>
 		<PackageVersion Include="Autofac" Version="6.5.0" />
@@ -21,10 +21,13 @@
 		<PackageVersion Include="IdentityModel" Version="6.0.0" />
 		<PackageVersion Include="IdentityModel.AspNetCore.OAuth2Introspection" Version="6.1.0" />
 		<PackageVersion Include="Mapster" Version="7.3.0" />
+		<PackageVersion Include="MassTransit" Version="8.0.14" />
+		<PackageVersion Include="MassTransit.Newtonsoft" Version="8.0.14" />
+		<PackageVersion Include="MassTransit.RabbitMQ" Version="8.0.14" />
 		<PackageVersion Include="MediatR" Version="12.0.1" />
 		<PackageVersion Include="MediatR.Contracts" Version="2.0.1" />
 		<PackageVersion Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
-		<PackageVersion Include="mongocsharpdriver" Version="2.19.0" />
+		<PackageVersion Include="mongocsharpdriver" Version="2.19.1" />
 		<PackageVersion Include="Newtonsoft.Json" Version="13.0.3" />
 		<PackageVersion Include="Polly" Version="7.2.3" />
 		<PackageVersion Include="protobuf-net" Version="3.1.33" />
@@ -51,6 +54,8 @@
 		<PackageVersion Include="System.Runtime.Loader" Version="4.3.0" />
 		<PackageVersion Include="System.Text.Json" Version="7.0.2" />
 		<PackageVersion Include="Winton.Extensions.Configuration.Consul" Version="3.2.0" />
+		<PackageVersion Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
+		<PackageVersion Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.3" />
 	</ItemGroup>
 	<!-- Microsoft.Extensions -->
 	<ItemGroup>
@@ -74,6 +79,8 @@
 		<PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="$(EntityFrameworkCorePackageVersion)" />
 		<PackageVersion Include="Microsoft.EntityFrameworkCore.InMemory" Version="$(EntityFrameworkCorePackageVersion)" />
 		<PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="$(EntityFrameworkCorePackageVersion)" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.Relational" Version="$(EntityFrameworkCorePackageVersion)" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="$(EntityFrameworkCorePackageVersion)" />
 	</ItemGroup>
 	<!-- Grpc -->
 	<ItemGroup>

@@ -7,7 +7,7 @@
         <Product>Insights</Product>
         <Copyright>© 2018-2023 Nerosoft. All Rights Reserved.</Copyright>
         <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
+        <Nullable>disable</Nullable>
         <LangVersion>latest</LangVersion>
         <Description>Microsoft AppCenter日志数据收集和分析服务</Description>
         <Configurations>Debug;Release;Product</Configurations>
