@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "request.proto";
+import "response.proto";
+
+package google.protobuf;
+
+option csharp_namespace = "Google.Protobuf";
+
+service SessionGrpcService
+{
+  rpc Call(GrpcRequest) returns(GrpcResponse);
+}
